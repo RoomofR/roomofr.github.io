@@ -1,0 +1,18 @@
+div{
+	text-align: center;
+}
+
+p{
+	 font-family: "Arial Black";
+	 font-size: 6px;
+	 line-height: 0%;
+}
+
+#title{
+	font-size: 70px;
+}
+
+#secret{
+	font-size: 0px;
+	color: white;
+}
