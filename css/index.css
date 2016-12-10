@@ -1,5 +1,7 @@
 div{
+	margin:0px auto;
 	text-align: center;
+	background-color: grey;
 }
 
 p{
@@ -15,4 +17,16 @@ p{
 #secret{
 	font-size: 0px;
 	color: white;
+}
+
+@media screen and (max-width:613px) {
+	div{
+		width:100%;
+	}
+	img{
+		width:100%;
+	}
+	#title{
+		font-size:2em;
+	}
 }
