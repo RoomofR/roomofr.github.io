@@ -1,6 +1,7 @@
 div{
 	margin:0px auto;
 	text-align: center;
+	font-size: 0.9em;
 }
 
 p{
@@ -10,7 +11,7 @@ p{
 }
 
 #title{
-	font-size: 70px;
+	font-size: 5em;
 }
 
 #secret{
@@ -18,7 +19,35 @@ p{
 	color: white;
 }
 
-@media screen and (max-width:613px) {
+#background {
+	
+}
+
+#seem {
+	position:absolute;
+	width:7%;
+	height: auto;
+	top: 0px; 
+	left: 0px;
+	z-index: 2;
+	opacity:0;
+}
+
+#explosion {
+	position:absolute;
+	width:10%;
+	height: auto;
+	top: 0px; 
+	left: 0px;
+	z-index: 3;
+	opacity:0;
+}
+
+#start {
+	margin-top: 90px;
+}
+
+@media screen and (max-width:659px) {
 	div{
 		width:100%;
 	}
@@ -26,6 +55,18 @@ p{
 		width:100%;
 	}
 	#title{
+		font-size:4em;
+	}
+}
+
+@media screen and (max-width:531px) {
+	#title{
 		font-size:2em;
+	}
+}
+
+@media screen and (max-width:279px) {
+	#title{
+		font-size:0.9em;
 	}
 }
